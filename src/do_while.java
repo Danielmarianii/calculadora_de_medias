@@ -28,8 +28,7 @@ public class do_while {
 			System.out.printf("Média= %.1f%n", media);
 			System.out.println("Fazer outra média?(y/n)");
 			continuar = sc.next().charAt(0);
-		} 
-		while (continuar != 'n');
+		} while (continuar != 'n');
 
 		sc.close();
 	}
